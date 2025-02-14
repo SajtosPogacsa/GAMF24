@@ -40,9 +40,9 @@ using (StreamReader stream = new StreamReader($"{DIR}\\szamok.txt"))
 
 }
 
-Console.WriteLine($"Második feladat: {goodNums - 1}");
+Console.WriteLine($"A rész: {goodNums}");
 
-//2.feladat
+//b rész
 
 string szam = "2354211341";
 char[] chars = szam.ToCharArray();
@@ -67,4 +67,4 @@ using (StreamReader sr = new($"{DIR}\\szamok.txt"))
         }
     }
 }
-Console.WriteLine($"Második feladat: {annagrams - 1}");
+Console.WriteLine($"B rész: {annagrams - 1}");
